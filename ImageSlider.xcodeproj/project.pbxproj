@@ -13,10 +13,9 @@
 		A718881D1BCF675C00CC9055 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A718881C1BCF675C00CC9055 /* Images.xcassets */; };
 		A71888201BCF675C00CC9055 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A718881E1BCF675C00CC9055 /* LaunchScreen.xib */; };
 		A718882C1BCF675C00CC9055 /* ImageSliderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A718882B1BCF675C00CC9055 /* ImageSliderTests.swift */; };
-		A71888361BCF770500CC9055 /* ImageSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71888351BCF770500CC9055 /* ImageSlider.swift */; };
-		A71888381BCF772C00CC9055 /* ImageSlider.xib in Resources */ = {isa = PBXBuildFile; fileRef = A71888371BCF772C00CC9055 /* ImageSlider.xib */; };
-		A71DD0F11BD0B2C300C286D1 /* UIImageView+AFNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71DD0F01BD0B2C300C286D1 /* UIImageView+AFNetworking.swift */; };
-		A76F87441BD0C8C50014EFDB /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76F87431BD0C8C50014EFDB /* CustomImageView.swift */; };
+		A798C31D1BD7538A005A0E93 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A798C31A1BD7538A005A0E93 /* CustomImageView.swift */; settings = {ASSET_TAGS = (); }; };
+		A798C31E1BD7538A005A0E93 /* ImageSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A798C31B1BD7538A005A0E93 /* ImageSlider.swift */; settings = {ASSET_TAGS = (); }; };
+		A798C31F1BD7538A005A0E93 /* UIImageView+AFNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = A798C31C1BD7538A005A0E93 /* UIImageView+AFNetworking.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +39,9 @@
 		A71888251BCF675C00CC9055 /* ImageSliderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageSliderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A718882A1BCF675C00CC9055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A718882B1BCF675C00CC9055 /* ImageSliderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSliderTests.swift; sourceTree = "<group>"; };
-		A71888351BCF770500CC9055 /* ImageSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSlider.swift; sourceTree = "<group>"; };
-		A71888371BCF772C00CC9055 /* ImageSlider.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageSlider.xib; sourceTree = "<group>"; };
-		A71DD0F01BD0B2C300C286D1 /* UIImageView+AFNetworking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImageView+AFNetworking.swift"; path = "../../../Swift-UIImageView-AFNetworking/UIImageView+AFNetworking.swift"; sourceTree = "<group>"; };
-		A76F87431BD0C8C50014EFDB /* CustomImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		A798C31A1BD7538A005A0E93 /* CustomImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomImageView.swift; path = Classes/CustomImageView.swift; sourceTree = SOURCE_ROOT; };
+		A798C31B1BD7538A005A0E93 /* ImageSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageSlider.swift; path = Classes/ImageSlider.swift; sourceTree = SOURCE_ROOT; };
+		A798C31C1BD7538A005A0E93 /* UIImageView+AFNetworking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImageView+AFNetworking.swift"; path = "Classes/UIImageView+AFNetworking.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,11 +83,10 @@
 		A71888121BCF675C00CC9055 /* ImageSlider */ = {
 			isa = PBXGroup;
 			children = (
+				A798C31A1BD7538A005A0E93 /* CustomImageView.swift */,
+				A798C31B1BD7538A005A0E93 /* ImageSlider.swift */,
+				A798C31C1BD7538A005A0E93 /* UIImageView+AFNetworking.swift */,
 				A71888151BCF675C00CC9055 /* AppDelegate.swift */,
-				A71888351BCF770500CC9055 /* ImageSlider.swift */,
-				A76F87431BD0C8C50014EFDB /* CustomImageView.swift */,
-				A71DD0F01BD0B2C300C286D1 /* UIImageView+AFNetworking.swift */,
-				A71888371BCF772C00CC9055 /* ImageSlider.xib */,
 				A71888171BCF675C00CC9055 /* ViewController.swift */,
 				A71888191BCF675C00CC9055 /* Main.storyboard */,
 				A718881C1BCF675C00CC9055 /* Images.xcassets */,
@@ -208,7 +205,6 @@
 			files = (
 				A718881B1BCF675C00CC9055 /* Main.storyboard in Resources */,
 				A71888201BCF675C00CC9055 /* LaunchScreen.xib in Resources */,
-				A71888381BCF772C00CC9055 /* ImageSlider.xib in Resources */,
 				A718881D1BCF675C00CC9055 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -228,10 +224,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A71888181BCF675C00CC9055 /* ViewController.swift in Sources */,
-				A71DD0F11BD0B2C300C286D1 /* UIImageView+AFNetworking.swift in Sources */,
+				A798C31D1BD7538A005A0E93 /* CustomImageView.swift in Sources */,
+				A798C31F1BD7538A005A0E93 /* UIImageView+AFNetworking.swift in Sources */,
+				A798C31E1BD7538A005A0E93 /* ImageSlider.swift in Sources */,
 				A71888161BCF675C00CC9055 /* AppDelegate.swift in Sources */,
-				A71888361BCF770500CC9055 /* ImageSlider.swift in Sources */,
-				A76F87441BD0C8C50014EFDB /* CustomImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
